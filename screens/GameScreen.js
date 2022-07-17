@@ -2,11 +2,10 @@ import {
   StyleSheet,
   useWindowDimensions,
   View,
-  StatusBar,
   Alert,
   FlatList,
 } from "react-native";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import NumberContainer from "../components/NumberContainer";
 import PrimaryButton from "../components/ui/PrimaryButton";
 import Card from "../components/ui/Card";

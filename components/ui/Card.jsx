@@ -1,6 +1,7 @@
 import { StyleSheet, Dimensions } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import Colors from "../../constants/colors";
+import React from "react";
 
 const Card = ({ children, style }) => {
   return (
